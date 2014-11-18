@@ -77,7 +77,7 @@ s = socket(AF_INET, SOCK_DGRAM)
 try:
     if MODE == 1:
         s.bind(("", PORT))
-    print "Mushroom stamped the captive portal"     
+    print "Mushroom stamped!"     
            
     while 1:
         r = select([f,s],[],[])[0][0]
